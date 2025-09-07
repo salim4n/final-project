@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="output"></div>
+<script>
+const es = new EventSource('/sse?q=Raconte une histoire de science-fiction');
+es.addEventListener('token', (e) => {
+  document.getElementById('output').insertAdjacentText('beforeend', e.data);
+});
+es.addEventListener('done', () => {
+  es.close();
+  console.log('Stream terminé');
+});
+</script>
+</body>
+</html>
