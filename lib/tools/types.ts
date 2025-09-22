@@ -20,3 +20,10 @@ export const Profile = z.object({
 	dietType: DietType,
 	intolerances: z.string()
 });
+
+export const Preset = z.object({
+    temperature: z.number(),
+    topP: z.number(),
+    frequencyPenalty: z.number(),
+    presencePenalty: z.number()
+});

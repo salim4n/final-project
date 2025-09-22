@@ -1,5 +1,7 @@
 import { z } from "zod";
-import { Gender, MacronutrientRatios, Objective, Profile } from "./types.js";
+import { Gender, MacronutrientRatios, Objective, Preset, Profile } from "./types.js";
+import { ChatOpenAI } from "@langchain/openai";
+import { config } from "../../config.js";
 
 
 const calculMan = (poids: number, taille: number, age: number) =>
@@ -99,3 +101,25 @@ export const calculNutrition = (profile: z.infer<typeof Profile>): z.infer<typeo
 	// Calculates the distribution based on the goal
 	return calculRepartition(profile.objective, caloriesTotal);
 };
+
+
+/**
+ * Calls the LLM model with the given prompt and preset.
+ * @param prompt The text to send to the LLM model
+ * @param preset The preset to use for the LLM model
+ * @returns A promise that resolves to the response from the LLM model
+ */
+export async function callLLM(prompt: string, preset: z.infer<typeof Preset>): Promise<string> {
+	const llm = new ChatOpenAI({ 
+		openAIApiKey: config.openai_api_key,
+		modelName: config.model_name,
+		streaming: false,
+		temperature: preset.temperature,
+		topP: preset.topP,
+		frequencyPenalty: preset.frequencyPenalty,
+		presencePenalty: preset.presencePenalty
+	  })
+
+	const res = await llm.invoke(prompt);
+	return res.content as string;
+}
