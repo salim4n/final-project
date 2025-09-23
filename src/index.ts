@@ -5,6 +5,8 @@ import { streamSSE, stream } from 'hono/streaming'
 import { config } from '../config.js';
 import { v4 as uuid } from 'uuid';
 import agent from '../agent.js';
+import { NutritionPlanningGraph } from '../graph.js';
+import { Profile } from '../lib/tools/types.js';
 
 const app = new Hono()
 
@@ -26,6 +28,16 @@ export async function* streamLLM(prompt: string): AsyncGenerator<string> {
     yield chunk.content as string;
   }
 }
+
+// ===== HEALTH CHECK =====
+
+app.get('/health', async (c) => {
+  return c.json({ 
+    status: 'ok', 
+    timestamp: new Date().toISOString(),
+    service: 'agent-nutrition'
+  });
+})
 
 // ===== ROUTES DE TEST LLM =====
 
@@ -79,6 +91,81 @@ app.get('/sse', async (c) => {
     await stream.writeSSE({ event: 'done', data: '' });
   });
 })
+
+// ===== ROUTE PLANIFICATION NUTRITIONNELLE =====
+
+app.post('/nutrition-plan', async (c) => {
+  try {
+    // Récupérer les données du profil depuis le body de la requête
+    const body = await c.req.json();
+    
+    // Valider le profil avec Zod
+    const profile = Profile.parse(body);
+    
+    console.log("🍽️ Generating nutrition plan for profile:", profile);
+    
+    // Créer et compiler le graphe
+    const graph = NutritionPlanningGraph();
+    const compiledGraph = graph.compile();
+    
+    // Exécuter le graphe avec le profil
+    const result = await compiledGraph.invoke({
+      input: profile
+    });
+    
+    if (!result.finalResponse) {
+      return c.json({ 
+        error: 'Failed to generate nutrition plan',
+        message: 'No final response generated'
+      }, 500);
+    }
+    
+    console.log("✅ Nutrition plan generated successfully");
+    
+    // Retourner la réponse complète
+    return c.json({
+      success: true,
+      data: result.finalResponse,
+      message: 'Plan nutritionnel généré avec succès'
+    });
+    
+  } catch (error) {
+    console.error("❌ Error generating nutrition plan:", error);
+    
+    if (error instanceof Error) {
+      return c.json({ 
+        error: 'Validation or processing error',
+        message: error.message,
+        details: error.stack
+      }, 400);
+    }
+    
+    return c.json({ 
+      error: 'Internal server error',
+      message: 'An unexpected error occurred'
+    }, 500);
+  }
+});
+
+// Route pour obtenir un exemple de structure de profil
+app.get('/nutrition-plan/example', async (c) => {
+  const exampleProfile = {
+    gender: "male",
+    age: 30,
+    weight: 75,
+    height: 180,
+    activityLevel: 1.5,
+    objective: "muscleGain",
+    dietType: "none",
+    intolerances: "lactose"
+  };
+  
+  return c.json({
+    message: "Exemple de profil pour la planification nutritionnelle",
+    example: exampleProfile,
+    usage: "POST /nutrition-plan avec ce format de données"
+  });
+});
 
 // ===== ROUTES AGENT (SSE uniquement) =====
 
@@ -225,6 +312,5 @@ serve({
 })
 
 /*
-
 @langchain/langgraph-cli @langchain/langgraph @langchain/core @langchain/community langchainhub
 */

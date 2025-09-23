@@ -3,7 +3,7 @@ import { MemorySaver } from "@langchain/langgraph";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
 import { config } from "./config.js";
 import type { DynamicStructuredTool } from "@langchain/core/tools";
-import { calculBmiTool, calculMetabolismTool, calculRepartitionTool, calculNutritionTool } from "./lib/tools/agent-tools.js";
+import { calculBmiTool, calculMetabolismTool, calculRepartitionTool, calculNutritionTool, generateDailyMealsTool, generateGroceryListTool } from "./lib/tools/agent-tools.js";
 
 class CoachAgent {
     private model: ChatOpenAI;
@@ -27,6 +27,8 @@ class CoachAgent {
             calculMetabolismTool,
             calculRepartitionTool,
             calculNutritionTool,
+            generateDailyMealsTool,
+            generateGroceryListTool,
         ];
         
         this.memory = new MemorySaver();
