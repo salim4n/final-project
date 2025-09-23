@@ -1,0 +1,685 @@
+{
+  "success": true,
+  "data": {
+    "profile": {
+      "gender": "male",
+      "age": 30,
+      "weight": 75,
+      "height": 180,
+      "activityLevel": 1.5,
+      "objective": "muscleGain",
+      "dietType": "none",
+      "intolerances": "lactose"
+    },
+    "macronutrients": {
+      "calories": 2977,
+      "protein": 223,
+      "fat": 83,
+      "carbohydrates": 335
+    },
+    "weeklyMealPlan": {
+      "monday": {
+        "breakfast": {
+          "name": "Mediterranean Chickpea & Spinach Shakshuka",
+          "description": "Prep time: 10 min | Cook time: 15 min 1. Heat 10 ml olive oil in a non-stick skillet over medium heat. 2. Add 100 g chopped onions and sauté until translucent (3-4 min). 3. Stir in 2 minced garlic cloves and cook for 1 min. 4. Add 200 g canned crushed tomatoes, 150 g cooked chickpeas, and 50 g fresh spinach. 5. Simmer gently for 8-10 minutes until sauce thickens and spinach wilts. 6. Create 2 small wells in the sauce and crack 2 eggs into them. 7. Cover and cook on low heat for 5-6 minutes until eggs are set to your liking. Tips: Use fresh spinach for vibrant color and flavor; canned chickpeas save prep time. Storage: Best eaten fresh; if storing, refrigerate in an airtight container up to 24 hours and reheat gently.",
+          "calories": "870",
+          "macros": {
+            "protein": "55",
+            "carbs": "80",
+            "fats": "28"
+          },
+          "ingredients": [
+            "100 g onion, chopped",
+            "2 cloves garlic, minced",
+            "200 g canned crushed tomatoes",
+            "150 g cooked chickpeas (drained weight)",
+            "50 g fresh spinach",
+            "2 large eggs (approx. 100 g total)",
+            "10 ml extra virgin olive oil",
+            "Salt and pepper to taste"
+          ]
+        },
+        "lunch": {
+          "name": "Grilled Chicken Provençal with Ratatouille",
+          "description": "Prep time: 15 min | Cook time: 25 min 1. Preheat grill or grill pan to medium-high heat (approx. 200°C). 2. Season 180 g skinless chicken breast with salt, pepper, and herbes de Provence. 3. Grill chicken for about 6-7 minutes per side until internal temperature reaches 75°C. 4. Meanwhile, dice 100 g zucchini, 100 g eggplant, 80 g red bell pepper, and 80 g tomato. 5. Heat 15 ml olive oil in a large skillet over medium heat. 6. Sauté vegetables with 1 minced garlic clove for about 15 minutes until tender; season with salt, pepper, and fresh thyme. 7. Serve grilled chicken atop ratatouille. Tips: Pat chicken dry before seasoning for better sear; use fresh herbs if possible. Storage: Ratatouille can be refrigerated up to 3 days; reheat gently before serving.",
+          "calories": "1120",
+          "macros": {
+            "protein": "85",
+            "carbs": "90",
+            "fats": "30"
+          },
+          "ingredients": [
+            "180 g skinless chicken breast",
+            "100 g zucchini, diced",
+            "100 g eggplant, diced",
+            "80 g red bell pepper, diced",
+            "80 g tomato, diced",
+            "1 clove garlic, minced",
+            "15 ml extra virgin olive oil",
+            "1 tsp herbes de Provence",
+            "Salt and pepper to taste",
+            "Fresh thyme sprigs"
+          ]
+        },
+        "dinner": {
+          "name": "Japanese Teriyaki Salmon with Steamed Jasmine Rice and Bok Choy",
+          "description": "Prep time: 10 min | Cook time: 20 min 1. Marinate 180 g salmon fillet in a mixture of 30 ml tamari (gluten-free soy sauce), 10 ml mirin, and 5 ml maple syrup for at least 10 minutes. 2. Rinse and drain 150 g jasmine rice; steam with 300 ml water for about 15 minutes until tender. 3. Heat a non-stick pan over medium heat; cook salmon skin-side down for about 5 minutes. 4. Flip salmon carefully and cook another 4-5 minutes until cooked through and glaze thickens. 5. Meanwhile, steam 150 g bok choy for about 5 minutes until crisp-tender. 6. Serve salmon over jasmine rice with bok choy on the side. Tips: Use fresh salmon for best flavor; do not overcook to keep moist texture. Storage: Leftover rice and salmon can be refrigerated up to 24 hours; reheat gently to avoid dryness.",
+          "calories": "900",
+          "macros": {
+            "protein": "83",
+            "carbs": "90",
+            "fats": "25"
+          },
+          "ingredients": [
+            "180 g salmon fillet",
+            "150 g jasmine rice (uncooked weight)",
+            "150 g bok choy",
+            "30 ml tamari (gluten-free soy sauce)",
+            "10 ml mirin",
+            "5 ml maple syrup"
+          ]
+        },
+        "snack": {
+          "name": "Italian Roasted Chickpeas with Sun-Dried Tomatoes & Rosemary",
+          "description": "Prep time: 5 min | Cook time: 25 min 1. Preheat oven to 200°C (fan assisted). 2. Drain and rinse 120 g canned chickpeas; pat dry thoroughly with paper towels. 3. Toss chickpeas with 10 ml olive oil, finely chopped sun-dried tomatoes (20 g), chopped fresh rosemary (5 g), salt, and black pepper. 4. Spread evenly on a baking sheet lined with parchment paper. 5. Roast for about 25 minutes until crispy, shaking the pan halfway through cooking. 6. Let cool slightly before serving. Tips: Drying chickpeas well is key to crispiness; store in airtight container once cooled. Storage: Store cooled roasted chickpeas in airtight container at room temperature up to 3 days.",
+          "calories": "87",
+          "macros": {
+            "protein": "10",
+            "carbs": "15",
+            "fats": "5"
+          },
+          "ingredients": [
+            "120 g canned chickpeas (drained weight)",
+            "20 g sun-dried tomatoes (oil-packed, drained)",
+            "5 g fresh rosemary, chopped",
+            "10 ml extra virgin olive oil",
+            "Salt and black pepper to taste"
+          ]
+        }
+      },
+      "tuesday": {
+        "breakfast": {
+          "name": "Mediterranean Chickpea and Avocado Toast",
+          "description": "Prep time: 10 min | Cook time: 5 min 1. Toast 80g of whole grain bread slices until golden and crisp. 2. In a bowl, mash 100g ripe avocado with 100g cooked chickpeas, a squeeze of lemon juice, salt, and pepper. 3. Spread the chickpea-avocado mixture evenly on the toasted bread. 4. Garnish with 20g chopped cherry tomatoes and 10g fresh parsley. Tips: Use ripe avocados for creaminess and add lemon juice to prevent browning. Storage: Best consumed immediately; avocado mixture can be stored in an airtight container for up to 12 hours refrigerated but may brown.",
+          "calories": "780",
+          "macros": {
+            "protein": "40",
+            "carbs": "85",
+            "fats": "25"
+          },
+          "ingredients": [
+            "whole grain bread 80g",
+            "ripe avocado 100g",
+            "cooked chickpeas 100g",
+            "cherry tomatoes 20g",
+            "fresh parsley 10g",
+            "lemon juice 5ml",
+            "salt to taste",
+            "black pepper to taste"
+          ]
+        },
+        "lunch": {
+          "name": "French Provencal Chicken with Ratatouille",
+          "description": "Prep time: 15 min | Cook time: 40 min 1. Preheat oven to 190°C (375°F). 2. Season 180g skinless chicken breast with salt, pepper, and herbes de Provence. 3. In a large ovenproof skillet, heat 15ml olive oil over medium heat; sear chicken breasts for 3 minutes per side until golden. 4. Remove chicken; add diced vegetables: eggplant (100g), zucchini (100g), red bell pepper (80g), onion (60g), and crushed garlic (5g). 5. Sauté vegetables for 7 minutes until slightly softened. 6. Add 150g diced tomatoes, salt, pepper, and fresh thyme; stir well. 7. Nestle chicken back into vegetables; transfer skillet to oven and bake for 20 minutes until chicken is cooked through. Tips: Use fresh herbs for authentic flavor; do not overcook chicken to keep it juicy. Storage: Store leftovers in airtight containers in the refrigerator for up to 2 days.",
+          "calories": "1150",
+          "macros": {
+            "protein": "90",
+            "carbs": "70",
+            "fats": "30"
+          },
+          "ingredients": [
+            "skinless chicken breast 180g",
+            "olive oil 15ml",
+            "eggplant 100g",
+            "zucchini 100g",
+            "red bell pepper 80g",
+            "onion 60g",
+            "garlic cloves crushed 5g",
+            "diced tomatoes canned no salt added 150g",
+            "herbes de Provence 2g",
+            "fresh thyme sprigs 2g",
+            "salt to taste",
+            "black pepper to taste"
+          ]
+        },
+        "dinner": {
+          "name": "Thai Beef Stir-Fry with Jasmine Rice and Vegetables",
+          "description": "Prep time: 15 min | Cook time: 15 min 1. Cook jasmine rice: rinse 120g dry jasmine rice; combine with 240ml water in pot; bring to boil, cover, reduce heat to low and simmer for 12 minutes; remove from heat and let rest covered for 5 minutes. 2. Slice lean beef sirloin thinly (150g). 3. Heat 15ml sesame oil in wok over high heat. 4. Add minced garlic (5g) and sliced red chili (5g); stir-fry for 30 seconds. 5. Add beef strips; stir-fry for about 3-4 minutes until browned but tender. 6. Add sliced bell peppers (80g), snap peas (60g), and shredded carrots (50g); stir-fry for another 4 minutes. 7. Mix in sauce made from tamari soy sauce (20ml), lime juice (10ml), and a teaspoon of honey (5g); cook for another minute. 8. Serve hot over jasmine rice. Tips: Cut beef against the grain for tenderness; prepare all ingredients before cooking as stir-frying is fast. Storage: Store beef stir-fry separately from rice in airtight containers in refrigerator up to 2 days.",
+          "calories": "900",
+          "macros": {
+            "protein": "93",
+            "carbs": "110",
+            "fats": "28"
+          },
+          "ingredients": [
+            "dry jasmine rice 120g",
+            "water 240ml",
+            "lean beef sirloin sliced thinly 150g",
+            "sesame oil 15ml",
+            "garlic minced 5g",
+            "red chili sliced fresh 5g",
+            "red bell pepper sliced 80g",
+            "snap peas trimmed 60g",
+            "carrots shredded fresh 50g",
+            "tamari soy sauce gluten free low sodium 20ml",
+            "lime juice fresh squeezed 10ml",
+            "honey natural raw 5g"
+          ]
+        },
+        "snack": {
+          "name": "Italian Roasted Chickpeas with Sun-Dried Tomatoes and Pine Nuts",
+          "description": "Prep time: 5 min | Cook time: 25 min 1. Preheat oven to 200°C (400°F). 2. Rinse and drain canned chickpeas thoroughly (120g). 3. Pat dry chickpeas with paper towel. 4. Toss chickpeas with olive oil (10ml), dried oregano (1g), salt, black pepper, chopped sun-dried tomatoes (20g), and pine nuts (15g). 5. Spread evenly on baking sheet lined with parchment paper. 6. Roast in oven for about 25 minutes until crispy, shaking pan halfway through cooking. Tips: Drying chickpeas well before roasting ensures crispiness; watch closely near end to avoid burning pine nuts. Storage: Store cooled roasted chickpeas in airtight container at room temperature up to 3 days.",
+          "calories": "147",
+          "macros": {
+            "protein": "10",
+            "carbs": "20",
+            "fats": "7"
+          },
+          "ingredients": [
+            "canned chickpeas drained rinsed 120g",
+            "olive oil extra virgin 10ml",
+            "dried oregano ground 1g",
+            "sun-dried tomatoes chopped no oil added 20g",
+            "pine nuts raw unsalted 15g",
+            "salt to taste",
+            "black pepper to taste"
+          ]
+        }
+      },
+      "wednesday": {
+        "breakfast": {
+          "name": "Japanese Tamago Kake Gohan with Grilled Salmon",
+          "description": "Prep time: 10 min | Cook time: 10 min 1. Rinse and cook 150g Japanese short-grain rice in a rice cooker or pot. 2. While rice cooks, grill 120g salmon fillet at 200°C for 8 minutes until cooked through. 3. Crack one raw egg (use pasteurized if preferred) into a bowl and beat lightly. 4. When rice is ready, place it in a bowl, pour the beaten egg over hot rice, and mix quickly. 5. Serve with grilled salmon on the side and garnish with 5g chopped green onions. Tips: Use freshly cooked hot rice to slightly cook the egg safely. Ensure salmon is fresh and skin removed if preferred. Storage: Best consumed immediately; leftovers can be refrigerated up to 24 hours but texture will change.",
+          "calories": "860",
+          "macros": {
+            "protein": "65",
+            "carbs": "90",
+            "fats": "20"
+          },
+          "ingredients": [
+            "Japanese short-grain rice 150g",
+            "Salmon fillet 120g",
+            "Egg (large) 50g",
+            "Green onions 5g"
+          ]
+        },
+        "lunch": {
+          "name": "Mediterranean Grilled Chicken with Quinoa Tabbouleh",
+          "description": "Prep time: 15 min | Cook time: 20 min 1. Rinse and cook 100g quinoa in 200ml water until fluffy (~15 min). 2. Marinate 180g chicken breast with lemon juice (10ml), minced garlic (5g), oregano (2g), salt, and pepper for 10 minutes. 3. Grill chicken on medium-high heat for about 6-7 minutes per side until internal temp reaches 75°C. 4. Chop parsley (15g), mint (10g), tomato (80g), cucumber (80g), and red onion (20g). 5. Mix cooked quinoa with chopped vegetables, add olive oil (15ml), lemon juice (10ml), salt, and pepper to make tabbouleh. 6. Serve grilled chicken sliced over or beside quinoa tabbouleh. Tips: Let chicken rest for 5 minutes after grilling for juiciness. Storage: Store chicken and tabbouleh separately in airtight containers in fridge up to 2 days.",
+          "calories": "1150",
+          "macros": {
+            "protein": "90",
+            "carbs": "110",
+            "fats": "30"
+          },
+          "ingredients": [
+            "Chicken breast 180g",
+            "Quinoa 100g",
+            "Parsley fresh 15g",
+            "Mint fresh 10g",
+            "Tomato 80g",
+            "Cucumber 80g",
+            "Red onion 20g",
+            "Olive oil extra virgin 15ml",
+            "Lemon juice fresh 20ml",
+            "Garlic minced 5g"
+          ]
+        },
+        "dinner": {
+          "name": "French Ratatouille with Pan-Seared Turkey Breast and Herb Sauce",
+          "description": "Prep time: 20 min | Cook time: 25 min 1. Dice eggplant (100g), zucchini (100g), bell pepper red (100g), tomato (150g), and onion (50g). 2. Heat olive oil (15ml) in a large pan over medium heat; sauté onion and garlic (5g) until translucent (~5 min). 3. Add eggplant, zucchini, and bell pepper; cook stirring occasionally for about 10 minutes until tender. 4. Add diced tomatoes, thyme (1g), rosemary (1g), salt, and pepper; simmer uncovered for another 10 minutes. 5. Meanwhile, season turkey breast (180g) with salt, pepper, and herbes de Provence (2g). 6. Heat a non-stick skillet over medium-high heat; add turkey breast with a little olive oil (5ml) and sear each side for about 4-5 minutes until internal temp reaches 75°C. 7. Rest turkey for 5 minutes; slice and serve alongside ratatouille. Tips: Use ripe tomatoes for best flavor; don’t overcrowd pan to ensure even cooking. Storage: Ratatouille can be refrigerated up to 3 days; reheat gently.",
+          "calories": "850",
+          "macros": {
+            "protein": "68",
+            "carbs": "90",
+            "fats": "33"
+          },
+          "ingredients": [
+            "Eggplant 100g",
+            "Zucchini 100g",
+            "Red bell pepper 100g",
+            "Tomato fresh ripe 150g",
+            "Onion yellow 50g",
+            "Garlic minced 5g",
+            "Turkey breast boneless skinless 180g",
+            "Olive oil extra virgin 20ml",
+            "Thyme dried 1g",
+            "Rosemary dried 1g"
+          ]
+        },
+        "snack": {
+          "name": "Italian Chickpea and Roasted Red Pepper Salad",
+          "description": "Prep time: 10 min | Cook time: 15 min 1. Drain and rinse canned chickpeas (120g). 2. Roast red bell pepper (100g) under broiler or on stovetop until charred; peel skin off and chop. 3. Chop fresh basil leaves (10g) finely. 4. Mix chickpeas, roasted peppers, basil, olive oil (10ml), lemon juice (10ml), salt, pepper, and a pinch of chili flakes. 5. Serve chilled or at room temperature. Tips: Roasting peppers enhances sweetness; can substitute canned roasted peppers if preferred. Storage: Keeps well refrigerated up to two days in airtight container.",
+          "calories": "220",
+          "macros": {
+            "protein": "10",
+            "carbs": "45",
+            "fats": "7"
+          },
+          "ingredients": [
+            "Canned chickpeas drained weight 120g",
+            "Red bell pepper fresh roasted 100g",
+            "Fresh basil leaves 10g",
+            "Olive oil extra virgin 10ml",
+            "Lemon juice fresh 10ml"
+          ]
+        }
+      },
+      "thursday": {
+        "breakfast": {
+          "name": "Mediterranean Chickpea and Avocado Toast",
+          "description": "Prep time: 10 min | Cook time: 5 min 1. Toast 2 slices of whole grain bread until golden and crisp. 2. In a bowl, mash 100g ripe avocado with a pinch of salt, pepper, and 1 tsp lemon juice. 3. Drain and rinse 100g canned chickpeas, then lightly mash them. 4. Spread mashed avocado evenly on the toasted bread. 5. Top with mashed chickpeas, sprinkle 10g chopped fresh parsley, and drizzle 10ml extra virgin olive oil. 6. Optionally add a few cherry tomato halves (50g) on the side. Tips: Use ripe avocado for creaminess and toast bread just before serving to keep it crisp. Storage: Best eaten fresh; avocado toast can brown if stored longer than 1 hour.",
+          "calories": "780",
+          "macros": {
+            "protein": "35",
+            "carbs": "80",
+            "fats": "28"
+          },
+          "ingredients": [
+            "whole grain bread 70g (2 slices)",
+            "ripe avocado 100g",
+            "canned chickpeas 100g (drained weight)",
+            "extra virgin olive oil 10ml",
+            "fresh parsley 10g",
+            "lemon juice 5ml",
+            "cherry tomatoes 50g",
+            "salt to taste",
+            "black pepper to taste"
+          ]
+        },
+        "lunch": {
+          "name": "French-Style Grilled Chicken with Ratatouille",
+          "description": "Prep time: 15 min | Cook time: 30 min 1. Preheat grill pan to medium-high heat (about 200°C). 2. Season 180g chicken breast with salt, pepper, and 5ml olive oil. 3. Grill chicken for about 6-7 minutes per side until internal temperature reaches 75°C. 4. Meanwhile, dice 100g zucchini, 100g eggplant, 100g red bell pepper, and 80g tomato. 5. Heat 15ml olive oil in a large skillet over medium heat. 6. Add diced vegetables and sauté for about 20 minutes until tender; season with salt, pepper, and herbs de Provence (2g). 7. Serve grilled chicken alongside ratatouille. Tips: Let chicken rest for 5 minutes after grilling for juiciness. Storage: Ratatouille can be refrigerated up to 3 days in airtight container; reheat gently.",
+          "calories": "1150",
+          "macros": {
+            "protein": "90",
+            "carbs": "70",
+            "fats": "35"
+          },
+          "ingredients": [
+            "chicken breast 180g",
+            "zucchini 100g",
+            "eggplant 100g",
+            "red bell pepper 100g",
+            "tomato 80g",
+            "extra virgin olive oil 20ml (divided)",
+            "herbs de Provence 2g",
+            "salt to taste",
+            "black pepper to taste"
+          ]
+        },
+        "dinner": {
+          "name": "Japanese Teriyaki Salmon with Steamed Jasmine Rice and Bok Choy",
+          "description": "Prep time: 10 min | Cook time: 20 min 1. Marinate 150g salmon fillet in a mixture of 15ml tamari (gluten-free soy sauce), 10ml mirin, and 5ml maple syrup for at least 10 minutes. 2. Rinse and steam 150g jasmine rice until tender (about 15 minutes). 3. Steam or sauté 150g bok choy lightly with garlic (1 clove minced) in a non-stick pan over medium heat for about 5 minutes. 4. Heat a non-stick skillet over medium-high heat; cook salmon skin-side down for about 4 minutes, then flip and cook another 3-4 minutes until cooked through and caramelized. 5. Drizzle remaining marinade over salmon while cooking to glaze. 6. Serve salmon atop rice with bok choy on the side. Tips: Use fresh salmon for best flavor; do not overcook to keep moist texture. Storage: Leftover rice and vegetables can be refrigerated up to 2 days; reheat thoroughly.",
+          "calories": "900",
+          "macros": {
+            "protein": "75",
+            "carbs": "85",
+            "fats": "20"
+          },
+          "ingredients": [
+            "salmon fillet with skin 150g",
+            "jasmine rice (dry weight) 50g",
+            "bok choy fresh leaves and stems 150g",
+            "tamari sauce (gluten-free soy sauce) 15ml",
+            "mirin rice wine 10ml",
+            "maple syrup pure grade A 5ml",
+            "garlic clove minced (approx. one clove)",
+            "water for steaming rice as needed"
+          ]
+        },
+        "snack": {
+          "name": "Italian Roasted Chickpeas with Sun-Dried Tomatoes and Almonds",
+          "description": "Prep time: 5 min | Cook time: 25 min 1. Preheat oven to 200°C (fan-assisted). 2. Drain and rinse canned chickpeas (120g), pat dry thoroughly with paper towels. 3. Toss chickpeas with 10ml olive oil, dried oregano (1g), garlic powder (1g), salt, and black pepper. 4. Spread chickpeas evenly on a baking tray lined with parchment paper. 5. Roast for about 25 minutes until crispy, shaking tray halfway through. 6. Chop sun-dried tomatoes (30g) finely and mix with roasted chickpeas along with raw almonds (20g). 7. Serve warm or at room temperature as a crunchy snack. Tips: Drying chickpeas well before roasting ensures crispiness; store leftovers in airtight container. Storage: Keep roasted chickpeas in airtight container at room temperature up to 3 days.",
+          "calories": "147",
+          "macros": {
+            "protein": "23",
+            "carbs": "20",
+            "fats": "8"
+          },
+          "ingredients": [
+            "canned chickpeas drained weight 120g",
+            "extra virgin olive oil 10ml",
+            "sun-dried tomatoes packed in oil drained weight 30g",
+            "raw almonds whole unsalted 20g",
+            "dried oregano ground 1g",
+            "garlic powder ground garlic powder approx.1g",
+            "salt to taste",
+            "black pepper to taste"
+          ]
+        }
+      },
+      "friday": {
+        "breakfast": {
+          "name": "Mediterranean Chickpea and Spinach Shakshuka",
+          "description": "Prep time: 10 min | Cook time: 15 min 1. Heat 1 tbsp olive oil in a non-stick skillet over medium heat. 2. Add 100g chopped onions and sauté until translucent (3-4 min). 3. Stir in 150g canned diced tomatoes, 100g cooked chickpeas, and 50g fresh spinach. 4. Season with 1 tsp smoked paprika, 0.5 tsp cumin, salt, and pepper. 5. Simmer for 8 minutes until sauce thickens slightly. 6. Make two wells in the sauce and crack 2 large eggs (approx. 100g) into each well. 7. Cover and cook on low heat for 5-6 minutes until eggs are set to your liking. Tips: Use fresh spinach for vibrant color and nutrients; canned tomatoes add depth of flavor. Storage: Best eaten fresh; can refrigerate leftovers (without eggs) up to 2 days.",
+          "calories": "870",
+          "macros": {
+            "protein": "55",
+            "carbs": "75",
+            "fats": "28"
+          },
+          "ingredients": [
+            "2 large eggs (100g)",
+            "150g canned diced tomatoes (no added sugar)",
+            "100g cooked chickpeas (drained weight)",
+            "50g fresh spinach",
+            "100g onion",
+            "1 tbsp olive oil (15ml)",
+            "1 tsp smoked paprika",
+            "0.5 tsp ground cumin",
+            "Salt to taste",
+            "Black pepper to taste"
+          ]
+        },
+        "lunch": {
+          "name": "French Provençal Grilled Chicken with Ratatouille",
+          "description": "Prep time: 15 min | Cook time: 30 min 1. Preheat grill or grill pan to medium-high heat (around 200°C). 2. Marinate 180g chicken breast with 1 tbsp olive oil, minced garlic (5g), chopped thyme (2g), salt, and pepper for 10 minutes. 3. For ratatouille: dice 100g eggplant, 100g zucchini, 80g red bell pepper, and 80g tomato. 4. Heat 1 tbsp olive oil in a large pan over medium heat. 5. Sauté eggplant and zucchini for 7 minutes until softened. 6. Add bell pepper and tomato; cook another 10 minutes stirring occasionally. 7. Season ratatouille with salt, pepper, and chopped fresh basil (5g). 8. Grill chicken breast for about 6-7 minutes per side until internal temperature reaches 75°C. 9. Serve grilled chicken alongside ratatouille. Tips: Use ripe vegetables for best flavor; grilling chicken adds smoky notes. Storage: Ratatouille can be refrigerated up to 3 days; reheat gently before serving.",
+          "calories": "1180",
+          "macros": {
+            "protein": "95",
+            "carbs": "90",
+            "fats": "32"
+          },
+          "ingredients": [
+            "180g chicken breast",
+            "100g eggplant",
+            "100g zucchini",
+            "80g red bell pepper",
+            "80g tomato",
+            "1 tbsp olive oil (15ml) for ratatouille",
+            "1 tbsp olive oil (15ml) for marinade",
+            "5g garlic minced",
+            "2g fresh thyme chopped",
+            "5g fresh basil chopped",
+            "Salt to taste",
+            "Black pepper to taste"
+          ]
+        },
+        "dinner": {
+          "name": "Japanese Teriyaki Salmon with Steamed Brown Rice and Bok Choy",
+          "description": "Prep time: 10 min | Cook time: 20 min 1. Marinate 180g salmon fillet with 30ml tamari sauce, 10ml mirin, and grated ginger (5g) for 10 minutes. 2. Rinse and steam 150g brown rice in a rice cooker or pot until tender (~40 min total cooking but prep done earlier). 3. Steam 150g bok choy for about 5 minutes until tender-crisp. 4. Heat a non-stick pan over medium heat; add salmon skin-side down and cook for 4-5 minutes. 5. Flip salmon and pour marinade over it; cook another 4-5 minutes until salmon is cooked through and glaze thickens. 6. Serve salmon atop brown rice with steamed bok choy on the side. Tips: Do not overcook salmon to keep it moist; use tamari instead of soy sauce to avoid gluten if desired. Storage: Leftover salmon best consumed within one day refrigerated.",
+          "calories": "750",
+          "macros": {
+            "protein": "73",
+            "carbs": "70",
+            "fats": "23"
+          },
+          "ingredients": [
+            "180g salmon fillet",
+            "150g brown rice (uncooked weight)",
+            "150g bok choy",
+            "30ml tamari sauce",
+            "10ml mirin",
+            "5g fresh ginger grated"
+          ]
+        },
+        "snack": {
+          "name": "Italian Roasted Chickpeas with Cherry Tomatoes and Basil Salad",
+          "description": "Prep time: 5 min | Cook time: 25 min 1. Preheat oven to 200°C. 2. Drain and rinse 120g canned chickpeas; pat dry thoroughly. 3. Toss chickpeas with 1 tbsp olive oil, salt, black pepper, and dried oregano (1 tsp). 4. Spread chickpeas on baking sheet lined with parchment paper; roast for about 25 minutes shaking halfway through until crispy. 5. Meanwhile, halve 100g cherry tomatoes and chop fresh basil leaves (10g). 6. Combine roasted chickpeas with tomatoes and basil; drizzle with a teaspoon of balsamic vinegar if desired. Tips: Drying chickpeas well ensures crispiness; serve warm or room temperature. Storage: Store roasted chickpeas in airtight container up to 3 days but will lose crispness.",
+          "calories": "177",
+          "macros": {
+            "protein": "10",
+            "carbs": "20",
+            "fats": "4"
+          },
+          "ingredients": [
+            "120g canned chickpeas (drained weight)",
+            "100g cherry tomatoes",
+            "10g fresh basil leaves chopped",
+            "1 tbsp olive oil (15ml)",
+            "1 tsp dried oregano",
+            "Salt to taste",
+            "Black pepper to taste"
+          ]
+        }
+      },
+      "saturday": {
+        "breakfast": {
+          "name": "Japanese Tamago Sando (Egg Sandwich) with Avocado",
+          "description": "Prep time: 10 min | Cook time: 10 min 1. Boil 3 large eggs for 8 minutes until hard-boiled. 2. Peel and mash the eggs in a bowl. 3. Add 30g mashed avocado, a pinch of salt, and a teaspoon of Japanese mayo (lactose-free). 4. Lightly toast 2 slices of lactose-free white bread. 5. Spread the egg-avocado mixture evenly on one slice and top with the other slice. 6. Cut sandwich diagonally and serve. Tips: Use fresh eggs for best taste and texture. Toasting bread adds crunch contrasting the creamy filling. Storage: Best eaten fresh but can be stored wrapped in plastic wrap in the fridge for up to 12 hours.",
+          "calories": "820",
+          "macros": {
+            "protein": "45",
+            "carbs": "75",
+            "fats": "25"
+          },
+          "ingredients": [
+            "3 large eggs (150g)",
+            "30g avocado",
+            "2 slices lactose-free white bread (60g)",
+            "10g lactose-free Japanese mayonnaise",
+            "Pinch of salt"
+          ]
+        },
+        "lunch": {
+          "name": "Mediterranean Grilled Chicken with Quinoa Tabbouleh Salad",
+          "description": "Prep time: 20 min | Cook time: 20 min 1. Rinse and cook 100g quinoa in 200ml water until fluffy (~15 min). 2. Season 180g chicken breast with 5g olive oil, lemon juice, garlic powder, salt, and pepper. 3. Grill chicken on medium-high heat for about 6-7 minutes per side until internal temp reaches 75°C. 4. Chop 50g cucumber, 50g tomato, 30g parsley, and 20g mint finely. 5. Mix vegetables with cooked quinoa, add juice of half a lemon, 10g olive oil, salt, and pepper to make tabbouleh. 6. Serve grilled chicken sliced over quinoa tabbouleh. Tips: Let chicken rest for 5 minutes after grilling to retain juices. Storage: Store chicken and salad separately in airtight containers in fridge up to 24 hours.",
+          "calories": "1150",
+          "macros": {
+            "protein": "90",
+            "carbs": "95",
+            "fats": "30"
+          },
+          "ingredients": [
+            "180g chicken breast",
+            "100g quinoa",
+            "50g cucumber",
+            "50g tomato",
+            "30g fresh parsley",
+            "20g fresh mint",
+            "15g olive oil (total)",
+            "Juice of half a lemon",
+            "Garlic powder, salt, pepper to taste"
+          ]
+        },
+        "dinner": {
+          "name": "French Ratatouille with Pan-Seared Salmon",
+          "description": "Prep time: 15 min | Cook time: 25 min 1. Dice 80g eggplant, 80g zucchini, 60g red bell pepper, and 60g yellow bell pepper into uniform cubes. 2. Heat 15g olive oil in a large skillet over medium heat. 3. Sauté diced vegetables with minced garlic (5g) for about 15 minutes until tender. 4. Season ratatouille with salt, pepper, and fresh thyme (5g). 5. Season 180g salmon fillet with salt and pepper. 6. Heat a non-stick pan over medium-high heat; add 10g olive oil. 7. Pan-sear salmon skin-side down for about 4 minutes until crispy; flip and cook another 3-4 minutes until cooked through. 8. Plate salmon atop ratatouille and garnish with fresh basil leaves (5g). Tips: Use ripe vegetables for sweeter ratatouille flavor; do not overcrowd pan when searing salmon to get crispy skin. Storage: Ratatouille can be refrigerated up to 2 days; reheat gently before serving.",
+          "calories": "950",
+          "macros": {
+            "protein": "88",
+            "carbs": "65",
+            "fats": "28"
+          },
+          "ingredients": [
+            "180g salmon fillet",
+            "80g eggplant",
+            "80g zucchini",
+            "60g red bell pepper",
+            "60g yellow bell pepper",
+            "15g olive oil (for ratatouille)",
+            "10g olive oil (for salmon)",
+            "5g garlic minced",
+            "5g fresh thyme",
+            "5g fresh basil leaves",
+            "Salt and pepper to taste"
+          ]
+        },
+        "snack": {
+          "name": "Italian Chickpea and Roasted Red Pepper Dip with Carrot Sticks",
+          "description": "Prep time: 10 min | Cook time: 20 min 1. Roast one large red bell pepper (150g) under broiler or on open flame until charred (~10 min), then peel skin off. 2. In a blender, combine roasted red pepper, 120g canned chickpeas (drained), juice of half lemon, 10g extra virgin olive oil, 1 clove garlic, salt, and black pepper. 3. Blend until smooth. 4. Peel and cut two medium carrots (120g) into sticks for dipping. 5. Serve dip chilled or at room temperature with carrot sticks. Tips: Roasting peppers adds smoky sweetness; soak chickpeas overnight if using dried instead of canned. Storage: Dip can be stored in airtight container in fridge up to 3 days.",
+          "calories": "157",
+          "macros": {
+            "protein": "10",
+            "carbs": "20",
+            "fats": "5"
+          },
+          "ingredients": [
+            "150g red bell pepper",
+            "120g canned chickpeas drained",
+            "120g carrots",
+            "10g extra virgin olive oil",
+            "Juice of half lemon",
+            "1 clove garlic",
+            "Salt and black pepper to taste"
+          ]
+        }
+      },
+      "sunday": {
+        "breakfast": {
+          "name": "Japanese Tamago Sando (Egg Sandwich) with Avocado",
+          "description": "Prep time: 10 min | Cook time: 10 min 1. Boil 3 large eggs for 8 minutes until hard-boiled. 2. Peel and mash the eggs in a bowl. 3. Mix mashed eggs with 30g mashed avocado, a pinch of salt, and a teaspoon of Dijon mustard. 4. Toast 2 slices of lactose-free whole grain bread until golden. 5. Spread the egg-avocado mixture evenly on one slice and top with the other slice. 6. Cut sandwich diagonally and serve. Tips: Use fresh eggs for best taste and texture. Toasting the bread adds crunch and prevents sogginess. Storage: Best consumed fresh but can be stored in an airtight container in the fridge for up to 12 hours.",
+          "calories": "880",
+          "macros": {
+            "protein": "55",
+            "carbs": "85",
+            "fats": "30"
+          },
+          "ingredients": [
+            "3 large eggs (150g)",
+            "30g avocado (mashed)",
+            "2 slices lactose-free whole grain bread (80g)",
+            "1 tsp Dijon mustard (5g)",
+            "Pinch of salt"
+          ]
+        },
+        "lunch": {
+          "name": "Mediterranean Grilled Chicken with Quinoa Tabbouleh",
+          "description": "Prep time: 15 min | Cook time: 20 min 1. Marinate 180g chicken breast with 1 tbsp olive oil, juice of half a lemon, minced garlic (5g), salt, pepper, and dried oregano for 10 minutes. 2. Rinse and cook 80g quinoa in 160ml water until fluffy (about 15 minutes). 3. Chop parsley (20g), mint (10g), tomato (100g), cucumber (100g), and red onion (30g). 4. In a bowl, combine cooked quinoa, chopped vegetables, herbs, and dress with 1 tbsp olive oil and lemon juice. 5. Grill chicken on medium-high heat for about 6-7 minutes per side until internal temperature reaches 75°C. 6. Serve grilled chicken sliced over quinoa tabbouleh. Tips: Let chicken rest for 5 minutes after grilling to retain juices. Storage: Store chicken and tabbouleh separately in airtight containers in the fridge for up to 2 days.",
+          "calories": "1100",
+          "macros": {
+            "protein": "85",
+            "carbs": "90",
+            "fats": "30"
+          },
+          "ingredients": [
+            "180g chicken breast",
+            "80g quinoa (dry weight)",
+            "20g fresh parsley",
+            "10g fresh mint",
+            "100g tomato",
+            "100g cucumber",
+            "30g red onion",
+            "2 tbsp olive oil (30ml)",
+            "Juice of half a lemon",
+            "5g minced garlic",
+            "Salt and pepper to taste",
+            "1 tsp dried oregano"
+          ]
+        },
+        "dinner": {
+          "name": "French Ratatouille with Grilled Turkey Steak",
+          "description": "Prep time: 20 min | Cook time: 40 min 1. Dice eggplant (100g), zucchini (100g), red bell pepper (100g), yellow bell pepper (100g), tomato (150g), and onion (50g). 2. Heat 1 tbsp olive oil in a large pan over medium heat; sauté onion and garlic (5g) for 3 minutes. 3. Add diced vegetables, season with salt, pepper, and herbes de Provence (1 tsp). 4. Simmer covered on low heat for 30 minutes, stirring occasionally. 5. Season 180g turkey steak with salt, pepper, and grill on medium-high heat for about 4-5 minutes per side until cooked through. 6. Serve turkey steak alongside ratatouille. Tips: Use fresh herbs if possible to enhance flavor. Avoid overcooking vegetables to keep texture. Storage: Ratatouille can be refrigerated in an airtight container for up to 3 days; reheat gently before serving.",
+          "calories": "900",
+          "macros": {
+            "protein": "83",
+            "carbs": "80",
+            "fats": "23"
+          },
+          "ingredients": [
+            "180g turkey steak",
+            "100g eggplant",
+            "100g zucchini",
+            "100g red bell pepper",
+            "100g yellow bell pepper",
+            "150g tomato",
+            "50g onion",
+            "5g garlic cloves minced",
+            "1 tbsp olive oil (15ml)",
+            "1 tsp herbes de Provence",
+            "Salt and pepper to taste"
+          ]
+        },
+        "snack": {
+          "name": "Italian Chickpea Salad with Sun-Dried Tomatoes and Basil",
+          "description": "Prep time: 10 min | Cook time: 0 min 1. Rinse and drain canned chickpeas (120g). 2. Chop sun-dried tomatoes in oil (30g) finely. 3. Tear fresh basil leaves (10g). 4. In a bowl, combine chickpeas, sun-dried tomatoes, basil, drizzle with 1 tbsp extra virgin olive oil, and season with salt and black pepper. 5. Toss gently to mix all ingredients well. Tips: Use sun-dried tomatoes packed in olive oil for better flavor; drain excess oil if preferred. Storage: Store in an airtight container in the fridge for up to 24 hours.",
+          "calories": "97",
+          "macros": {
+            "protein": "10",
+            "carbs": "20",
+            "fats": "0"
+          },
+          "ingredients": [
+            "120g canned chickpeas (drained weight)",
+            "30g sun-dried tomatoes in olive oil",
+            "10g fresh basil leaves",
+            "1 tbsp extra virgin olive oil (15ml)",
+            "Salt and black pepper to taste"
+          ]
+        }
+      }
+    },
+    "groceryList": {
+      "fruitsEtLegumes": [
+        {
+          "name": "Bananes",
+          "quantity": "6",
+          "unit": "pièces"
+        },
+        {
+          "name": "Épinards",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "name": "Tomates",
+          "quantity": "500",
+          "unit": "g"
+        }
+      ],
+      "viandesEtPoissons": [
+        {
+          "name": "Poulet",
+          "quantity": "1",
+          "unit": "kg"
+        },
+        {
+          "name": "Saumon",
+          "quantity": "400",
+          "unit": "g"
+        }
+      ],
+      "produitsLaitiers": [
+        {
+          "name": "Lait",
+          "quantity": "1",
+          "unit": "L"
+        },
+        {
+          "name": "Yaourt grec",
+          "quantity": "500",
+          "unit": "g"
+        }
+      ],
+      "feculentsEtCereales": [
+        {
+          "name": "Riz",
+          "quantity": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Avoine",
+          "quantity": "500",
+          "unit": "g"
+        }
+      ],
+      "epicerie": [
+        {
+          "name": "Huile d'olive",
+          "quantity": "1",
+          "unit": "bouteille"
+        },
+        {
+          "name": "Œufs",
+          "quantity": "12",
+          "unit": "pièces"
+        }
+      ],
+      "condimentsEtEpices": [
+        {
+          "name": "Sel",
+          "quantity": "1",
+          "unit": "paquet"
+        },
+        {
+          "name": "Poivre",
+          "quantity": "1",
+          "unit": "paquet"
+        }
+      ]
+    },
+    "summary": "Plan nutritionnel hebdomadaire personnalisé généré pour un homme de 30 ans. Objectif: muscleGain. Régime: none. Calories quotidiennes: 2977 kcal. Plan de repas complet pour 7 jours avec liste de courses hebdomadaire organisée par catégories."
+  },
+  "message": "Plan nutritionnel généré avec succès"
+}
